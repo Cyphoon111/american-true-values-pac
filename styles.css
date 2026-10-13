@@ -122,6 +122,9 @@ section { padding: 72px 0; }
 /* About */
 .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
 .about-grid img { width: 100%; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+.about-photo figcaption { text-align: center; margin-top: 16px; }
+.about-photo .name { display: block; font-family: var(--font-serif); font-size: 1.3rem; color: var(--navy); font-weight: bold; }
+.about-photo .title { display: block; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; color: var(--red); font-weight: 700; }
 .about-text p { margin-bottom: 16px; color: #33415c; }
 
 /* Values cards */
